@@ -1,0 +1,21 @@
+# Build and dist outputs
+dist/
+build/
+*.spec
+*.exe
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# User data and local runtime cache
+data/cache/
+data/user_state.json
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
